@@ -1,0 +1,20 @@
+// notificacion service
+
+# Envio  de mails:
+
+La notificacion es transaccional? 
+
+Que pasa si falla una, retorno ok y aclaro en el boby o tiro error?
+
+La api no es responsable de mandar mails de eso se encarga el modelo?
+
+Para flexibilazar le meto un bserber que reciba params como json y los que quieran notificar se suscriben
+ o me fui de mambo?
+
+
+---------------------------------------------------------------------------------------------------------
+
+# Diseño:
+
+La verificacion de existencia contra la API de unquify la hace la hace el modelo o la api de notification service?
+
